@@ -24,6 +24,8 @@ import os
 import sys
 import time
 import argparse
+import smtplib
+from email.message import EmailMessage
 
 parser = argparse.ArgumentParser(description='Monitor dhcp lease file for given devices dropping out', fromfile_prefix_chars='@')
 
@@ -33,13 +35,31 @@ parser.add_argument('--version', action='version',
 parser.add_argument('hostid', type=str, nargs='+',
   help='local hostname or MAC address to monitor')
 
-parser.add_argument('-l', '--leasefile', type=bytes, default=b'/var/dhcp.leases',
+parser.add_argument('-l', '--leasefile', type=str, default='/var/dhcp.leases',
   help='Location of dhcp lease file')
 
 parser.add_argument('-s', '--sleeptime', type=int, default=60,
   help='How long to sleep, in seconds, between polls of the lease file.')
 
+parser.add_argument('--smtpserver', type=str, default='localhost',
+  help='SMTP server to send emails, optionally followed by a port number.')
+
 args = parser.parse_args()
+
+def mail():
+  msg = EmailMessage()
+  msg['Subject'] = 'TEST'
+  msg['From'] = 'DHCP Monitor <edmansion2@gmail.com>'
+  msg['To'] = ','.join(['Carl Edman <CarlEdman@gmail.com>'])
+  msg.set_content(time.ctime())
+
+  (host, port) = args.smtpserver.split(':',1)
+  if port: port=int(port)
+  print(repr(host), repr(port))
+  with smtplib.SMTP(host=host, port=port) as s:
+    s.starttls()
+    s.send_message(msg)
+    s.quit()
 
 def check(online):
   with open(args.leasefile) as lf: ls = [l.strip().split(' ') for l in lf]
@@ -82,4 +102,4 @@ def main():
         print('{}: {} came online.'.format(time.ctime(ntime), ",".join(going_on)))
 
 if __name__ == '__main__':
-  main()
+  mail()
