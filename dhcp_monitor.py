@@ -41,25 +41,39 @@ parser.add_argument('-l', '--leasefile', type=str, default='/var/dhcp.leases',
 parser.add_argument('-s', '--sleeptime', type=int, default=60,
   help='How long to sleep, in seconds, between polls of the lease file.')
 
-parser.add_argument('--smtpserver', type=str, default='localhost',
-  help='SMTP server to send emails, optionally followed by a port number.')
+parser.add_argument('--smtp-server', type=str, default='localhost',
+  help='SMTP server to use to send emails, optionally followed by a port number.')
+
+parser.add_argument('--smtp-from', type=str, default='DHCP Monitor',
+  help='SMTP account from which to send status emails.')
+
+parser.add_argument('--smtp-password', type=str, default=None,
+  help='SMTP password, if any, to login in to server.')
+
+parser.add_argument('--smtp-to', type=str, default=None,
+  help='E-mail address to send reports to (if not given, reports are sent to standard output).')
 
 args = parser.parse_args()
 
-def mail():
-  msg = EmailMessage()
-  msg['Subject'] = 'TEST'
-  msg['From'] = 'DHCP Monitor <edmansion2@gmail.com>'
-  msg['To'] = ','.join(['Carl Edman <CarlEdman@gmail.com>'])
-  msg.set_content(time.ctime())
+def report(l):
+  if args.smtp_to:
+    msg = EmailMessage()
+    msg['Subject'] = l[0]
+    msg['From'] = args.smtp_from
+    msg['To'] = args.smtp_to
+    msg.set_content('\n'.join(l[1:]))
 
-  (host, port) = args.smtpserver.split(':',1)
-  if port: port=int(port)
-  print(repr(host), repr(port))
-  with smtplib.SMTP(host=host, port=port) as s:
-    s.starttls()
-    s.send_message(msg)
-    s.quit()
+    (host, port) = args.smtp_server.split(':',1)
+    if port: port=int(port)
+
+    with smtplib.SMTP(host=host, port=port) as s:
+      s.starttls()
+      if args.smtp_from and args.smtp_password:
+        s.login(args.smtp_from, args.smtp_password)
+      s.send_message(msg)
+      s.quit()
+  else:
+    print('\n'.join(l))
 
 def check(online):
   with open(args.leasefile) as lf: ls = [l.strip().split(' ') for l in lf]
@@ -84,7 +98,7 @@ def check(online):
   return (going_on, going_off)
 
 def main():
-  online = { a:True for a in args.hostid }
+  online = { a:True for a in args.hostid if not a.startswith("#") }
   otime = 0
 
   while True:
@@ -96,10 +110,10 @@ def main():
       going_on, going_off = check(online)
 
       if going_off:
-        print('{}: {} went offline.'.format(time.ctime(ntime), ",".join(going_off)))
+        report(['{} went offline at {}'.format(",".join(going_off),time.ctime(ntime))])
 
       if going_on:
-        print('{}: {} came online.'.format(time.ctime(ntime), ",".join(going_on)))
+        report(['{} came online at {}'.format(",".join(going_on),time.ctime(ntime))])
 
 if __name__ == '__main__':
-  mail()
+  main()
