@@ -25,6 +25,7 @@ import sys
 import time
 import argparse
 import smtplib
+import signal
 from email.message import EmailMessage
 
 parser = argparse.ArgumentParser(description='Monitor dhcp lease file for given devices dropping out', fromfile_prefix_chars='@')
@@ -52,6 +53,9 @@ parser.add_argument('--smtp-password', type=str, default=None,
 
 parser.add_argument('--smtp-to', type=str, default=None,
   help='E-mail address to send reports to (if not given, reports are sent to standard output).')
+
+parser.add_argument('--daemon', action='store_true',
+  help='Run in daemon mode (i.e., detach from console and restart with SIGHUP)')
 
 args = parser.parse_args()
 
@@ -97,7 +101,24 @@ def check(online):
 
   return (going_on, going_off)
 
+def daemonize():
+  def closetty(f):
+    if f and not f.closed and f.isatty():
+      f.close()
+
+#  closetty(sys.stdin)
+#  closetty(sys.stdout)
+#  closetty(sys.stderr)
+ 
+  def restart(signum, frame):
+    os.execv(sys.argv[0],sys.argv)
+
+  signal.signal(signal.SIGHUP, restart)
+  
+
 def main():
+  if args.daemon: daemonize()
+
   online = { a:True for a in args.hostid if not a.startswith("#") }
   otime = 0
 
