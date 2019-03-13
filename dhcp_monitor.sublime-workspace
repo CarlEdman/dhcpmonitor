@@ -1,0 +1,747 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mod",
+				"modifier_id"
+			],
+			[
+				"a",
+				"Array"
+			],
+			[
+				"reach",
+				"reachable_from_all"
+			],
+			[
+				"reac",
+				"reachable_from"
+			],
+			[
+				"stat",
+				"station_no"
+			],
+			[
+				"spec",
+				"SPECIALISE"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Haskell/Haskell.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Haskell/Haskell.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Haskell/Haskell.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 589.0,
+		"history":
+		[
+			"exit_code",
+			"exit_code=process.wait()",
+			"process=subprocess.Popen(['ghc-mod', 'lint', '-h', 'C:\\\\Users\\\\Carl\\\\Google Drive\\\\Project Euler\\\\P527.hs', '-g', '-i C:\\\\Users\\\\Carl\\\\Google Drive\\\\Project Euler'])",
+			"subprocess.Popen(['ghc-mod', 'lint', '-h', 'C:\\\\Users\\\\Carl\\\\Google Drive\\\\Project Euler\\\\P527.hs', '-g', '-i C:\\\\Users\\\\Carl\\\\Google Drive\\\\Project Euler'])",
+			"import subprocess",
+			"subprocess.Popen(['ghc-mod', 'lint', '-h', 'C:\\\\Users\\\\Carl\\\\Google Drive\\\\Project Euler\\\\P527.hs', '-g', '-i C:\\\\Users\\\\Carl\\\\Google Drive\\\\Project Euler'])",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Z/makemp4/Descriptions/Big Bang Theory S11.txt",
+		"/Z/makemp4/Descriptions/Favourite.txt",
+		"/C/Users/Carl/AppData/Local/Temp/Temp1_ChromaHills-128x-1.13-v2.zip/CH legal PLEASE READ.txt",
+		"/C/Users/Carl/AppData/Local/Temp/CarlEdman_history_2019_02_27_2134.txt",
+		"/C/Users/Carl/DVD/a/Kubo and the Two Strings () .cfg",
+		"/C/Users/Carl/DVD/a/Coco ().cfg",
+		"/C/Users/Carl/DVD/a/Anti Matter () Scene 1.cfg",
+		"/C/Users/Carl/DVD/a/Anti Matter () Scene 2.cfg",
+		"/C/Users/Carl/DVD/a/Anti Matter () Trailer 1.cfg",
+		"/C/Users/Carl/DVD/a/Anti Matter () Trailer 2.cfg",
+		"/C/Users/Carl/DVD/a/Anti Matter () VFX & Grade Breakdown.cfg",
+		"/Z/makemp4/Descriptions/Kubo and the Two Strings.txt",
+		"/C/Users/Carl/DVD/MakeMP4/makemp4.py",
+		"/Z/makemp4/Descriptions/Johnny English Strikes Again.txt",
+		"/Z/makemp4/Descriptions/Nineth Life of Louis Drax.txt",
+		"/C/Users/Carl/DVD/a/Terror S1E08.cfg",
+		"/C/Users/Carl/DVD/a/Terror S1E09.cfg",
+		"/C/Users/Carl/DVD/a/Terror S1E10.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2E10.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 An Evocative Location.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 Chaos in the Mesa.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 Deconstructing Maeve.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 Fort Forlorn Hope.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 Ghost Nation.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 Inside the Cradle.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 Journeys and Technology.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 Making-of.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 Of Love and Shogun.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 Reflections on Season 2.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 Shogun World.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 The Delos Experiment.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 The Drone Hosts.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 The Truth Behind Delos.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2 The Valley Beyond.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2E09.cfg",
+		"/C/Users/Carl/DVD/a/Terror S1 Promo 3.cfg",
+		"/C/Users/Carl/DVD/a/Terror S1 Promo 2.cfg",
+		"/C/Users/Carl/DVD/a/Terror S1 Promo 1.cfg",
+		"/C/Users/Carl/DVD/a/Terror S1E01.cfg",
+		"/C/Users/Carl/DVD/a/Terror S1E02.cfg",
+		"/C/Users/Carl/DVD/a/Terror S1E03.cfg",
+		"/C/Users/Carl/DVD/a/Terror S1E04.cfg",
+		"/C/Users/Carl/DVD/a/Terror S1E05.cfg",
+		"/C/Users/Carl/DVD/a/Terror S1E06.cfg",
+		"/C/Users/Carl/DVD/a/Terror S1E07.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2E03.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2E07.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2E01.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2E02.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2E04.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2E05.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2E06.cfg",
+		"/C/Users/Carl/DVD/a/Westworld S2E08.cfg",
+		"/C/Users/Carl/AppData/Roaming/cabal/config",
+		"/C/Users/Carl/AppData/Roaming/cabal/config.backup",
+		"/Z/makemp4/Descriptions/Westworld S2.txt",
+		"/C/Users/Carl/DVD/a/Counterpart S1E01.cfg",
+		"/C/Users/Carl/DVD/a/Counterpart S1E02.cfg",
+		"/C/Users/Carl/DVD/a/Counterpart S1E03.cfg",
+		"/C/Users/Carl/DVD/a/Counterpart S1E04.cfg",
+		"/C/Users/Carl/DVD/a/Manhunter ().cfg",
+		"/Z/makemp4/Descriptions/Terror S1.txt",
+		"/C/Users/Carl/DVD/a/Avengers ().cfg",
+		"/C/Users/Carl/DVD/a/Spider-Man Homecoming () A Tangled Web.cfg",
+		"/C/Users/Carl/DVD/a/Spider-Man Homecoming () Aftermath.cfg",
+		"/C/Users/Carl/DVD/a/Spider-Man Homecoming () Extras.cfg",
+		"/C/Users/Carl/DVD/a/Spider-Man Homecoming () Head of the Class.cfg",
+		"/C/Users/Carl/DVD/a/Spider-Man Homecoming () Outtakes.cfg",
+		"/C/Users/Carl/DVD/a/Spider-Man Homecoming () Pros and Cons.cfg",
+		"/C/Users/Carl/DVD/a/Spider-Man Homecoming () Rappin' with Cap.cfg",
+		"/C/Users/Carl/DVD/a/Spider-Man Homecoming () Searching for.cfg",
+		"/C/Users/Carl/DVD/a/Spider-Man Homecoming () Spidey Stunts.cfg",
+		"/C/Users/Carl/DVD/a/Spider-Man Homecoming () The Vulture Takes Flight.cfg",
+		"/C/Users/Carl/DVD/a/Spider-Man Homecoming ().cfg",
+		"/C/Users/Carl/DVD/a/Avengers () Short.cfg",
+		"/C/Users/Carl/DVD/a/Avengers () Outtakes.cfg",
+		"/C/Users/Carl/DVD/a/Avengers () Music Video.cfg",
+		"/C/Users/Carl/DVD/a/Avengers () Making-of.cfg",
+		"/C/Users/Carl/DVD/a/Avengers () Deleted Scenes.cfg",
+		"/Z/makemp4/Descriptions/Counterpart S1.txt",
+		"/C/Users/Carl/DVD/a/Dirk Gently S1E04.cfg",
+		"/C/Users/Carl/DVD/a/Dirk Gently S1E03.cfg",
+		"/C/Users/Carl/DVD/a/Dirk Gently S1E02.cfg",
+		"/C/Users/Carl/DVD/a/Dirk Gently S1E01.cfg",
+		"/C/Users/Carl/Documents/Project Euler/P402.hs",
+		"/C/Users/Carl/Desktop/NASTester 1.7 Results.txt",
+		"/C/Users/Carl/AppData/Local/Temp/mailFilters.xml",
+		"/Z/Code/Project Euler Archive/P401.hs",
+		"/Z/Code/Project Euler Archive/P330.hs",
+		"/C/Users/Carl/Documents/DYMO Label/Labels/Printed Labels/PrintedLabels.xml",
+		"/C/Users/Carl/DVD/makemp4log.txt",
+		"/C/Users/Carl/DVD/a/Indiana Jones and the Kingdom of the Crystal Skull ().cfg",
+		"/C/Users/Carl/DVD/a/Simple Favor ().cfg",
+		"/C/Users/Carl/DVD/a/a - Log.txt",
+		"/C/Users/Carl/DVD/a/Indiana Jones and the Kingdom of the Crystal Skull () On Set.cfg",
+		"/C/Users/Carl/DVD/a/Indiana Jones and the Kingdom of the Crystal Skull () Operation CUE.cfg",
+		"/C/Users/Carl/DVD/a/Indiana Jones and the Kingdom of the Crystal Skull () The Return of a Legend.cfg",
+		"/C/Users/Carl/DVD/a/Indiana Jones and the Kingdom of the Crystal Skull () Trailer 1.cfg",
+		"/C/Users/Carl/DVD/a/Indiana Jones and the Kingdom of the Crystal Skull () Trailer 2.cfg",
+		"/C/Users/Carl/DVD/a/Indiana Jones and the Kingdom of the Crystal Skull () I Like Ike.cfg",
+		"/C/Users/Carl/DVD/a/Indiana Jones and the Kingdom of the Crystal Skull () Making-of.cfg",
+		"/C/Users/Carl/DVD/a/Smallfoot () Yeti, Set, Go!.cfg",
+		"/C/Users/Carl/DVD/a/Smallfoot () Yeti or Not Here They Come!.cfg",
+		"/C/Users/Carl/DVD/a/Smallfoot () Translations.cfg",
+		"/C/Users/Carl/DVD/a/Smallfoot () The Secret of the Yeti Stones.cfg",
+		"/C/Users/Carl/DVD/a/Smallfoot () Super Soozie.cfg",
+		"/C/Users/Carl/DVD/a/Smallfoot () Singalong.cfg",
+		"/C/Users/Carl/DVD/a/Smallfoot () Recipe.cfg",
+		"/C/Users/Carl/DVD/a/Smallfoot () Please Turn Off Your Mobile Phone.cfg",
+		"/C/Users/Carl/DVD/a/Smallfoot () Music Video.cfg",
+		"/C/Users/Carl/DVD/a/Smallfoot () Commentary.cfg",
+		"/C/Users/Carl/DVD/a/Smallfoot () Artifact 54 The Singing Stone.cfg",
+		"/C/Users/Carl/DVD/a/Smallfoot ().cfg",
+		"/C/Users/Carl/DVD/a/Smallfoot () Artifact 31 The Smallfoot Cocoon.cfg",
+		"/C/Users/Carl/DVD/a/Incredibles 2 ().cfg",
+		"/C/Users/Carl/DVD/a/Incredibles 2 () Racoon Story.cfg",
+		"/C/Users/Carl/DVD/a/Incredibles 2 () Making-of.cfg",
+		"/C/Users/Carl/DVD/a/Incredibles 2 () Bao.cfg",
+		"/C/Users/Carl/DVD/a/Incredibles 2 () Animation Outtakes.cfg",
+		"/C/Users/Carl/DVD/a/Incredibles 2 () Auntie Edna.cfg",
+		"/Z/makemp4/Descriptions/Smallfoot.txt",
+		"/C/Users/Carl/AppData/Local/Temp/scp46709/home/ec2-user/operations-dashboard/opsdash/blueprints/annohist/templates/annohist/index.html",
+		"/C/Users/Carl/AppData/Local/Temp/scp03983/home/ec2-user/operations-dashboard/opsdash/blueprints/batchstatus/templates/batchstatus/index.html",
+		"/C/Users/Carl/AppData/Local/Temp/scp48109/home/ec2-user/operations-dashboard/opsdash/blueprints/hello/templates/hello/index.html",
+		"/C/Users/Carl/AppData/Local/Temp/scp42048/home/ec2-user/operations-dashboard/opsdash/blueprints/hello/__init__.py",
+		"/C/Users/Carl/AppData/Local/Temp/scp42667/home/ec2-user/operations-dashboard/opsdash/blueprints/batchstatus/__init__.py",
+		"/C/Users/Carl/AppData/Local/Temp/scp37023/home/ec2-user/operations-dashboard/opsdash/blueprints/accuracy/__init__.py",
+		"/C/Users/Carl/AppData/Local/Temp/scp41873/home/ec2-user/operations-dashboard/opsdash/blueprints/annohist/__init__.py"
+	],
+	"find":
+	{
+		"height": 67.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+			"Terror S1E*.cfg",
+			"Westworld*.cfg",
+			"Terror*.cfg",
+			"Westworld*.cfg",
+			"Spider*.cfg",
+			"Avengers*.cfg",
+			"Indi*.cfg",
+			"Smallfoot*.cfg",
+			"Happytime*.cfg",
+			"*.cfg",
+			"Batman*.cfg",
+			"Daredevil*.cfg",
+			"Endless () *.cfg",
+			"Endless () [A-Z]*.cfg",
+			"Legend*.cfg",
+			"*.cfg",
+			"Shining () *.cfg",
+			"Oxford*.cfg",
+			"Smiley*.cfg",
+			"Tinker*.cfg",
+			"Tourist*.cfg",
+			"Tinker*.cfg",
+			"Murder*.cfg",
+			"Jumanji*.cfg",
+			"Americans*.cfg",
+			"Homeland*.cfg",
+			"Archer*.cfg",
+			"American Gods S1E*.cfg",
+			"American Gods*.cfg",
+			"Avengers*.cfg",
+			"Game of Thrones S7E*.cfg",
+			"Game of Thrones S7 *.cfg",
+			"Game*.cfg",
+			"Avengers*.cfg",
+			"*.cfg",
+			"Westworld*.cfg",
+			"Avengers*.cfg",
+			"Big Bang Theory S10E*.cfg",
+			"Big Bang Theory S10 *.cfg",
+			"Big Bang*.cfg",
+			"Sherlock*.cfg",
+			"Vikings S4E*.cfg",
+			"*.cfg",
+			"American*.cfg",
+			"Gotham S3 *.cfg",
+			"Gotham*.cfg",
+			"Beauty*.cfg",
+			"Cure*.cfg",
+			"Money*.cfg",
+			"Homeland*.cfg",
+			"Arrival*.cfg",
+			"Homeland*.cfg",
+			"Spotlight*.cfg",
+			"The Founder*.cfg",
+			"Logan*.cfg",
+			"Following*.cfg",
+			"Silicon Valley S3E*.cfg",
+			"Homeland S5 *.cfg",
+			"Homeland*.cfg",
+			"Americans S4*.cfg",
+			"Americans S4 *.cfg",
+			"Americans *.cfg",
+			"Get Smart S?E*.cfg",
+			"Get Smart S5E*.cfg",
+			"Get Smart S4E*.cfg",
+			"Get Smart S5E*.cfg",
+			"Get Smart S4E*.cfg",
+			"Get Smart S[45]E*.cfg",
+			"Silicon Valley S2E*.cfg",
+			"Silicon Valley S2 *.cfg",
+			"Silicon Valley S1 *.cfg",
+			"Gotham S2 *.cfg",
+			"Gotham S1 *.cfg",
+			"Gotham S2 *.cfg",
+			"Gotham S1 *.cfg",
+			"Gotham *.cfg",
+			"Get Smart *.cfg",
+			"Get Smart S4 *.cfg",
+			"Monkey King 2 () *.cfg",
+			"Monster*.cfg",
+			"Gotham*.cfg",
+			"*.cfg",
+			"*.hs",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";",
+			"T12.156",
+			"\nTitle reference:",
+			"\n\n",
+			"Story by :",
+			"\nTeleplay by :",
+			" FATE $",
+			"    ",
+			"^(\\[TRACK03\\]$\\n)mkv",
+			"^description =\\s*$",
+			"^year =\\s*$",
+			"^year = .*$",
+			"^genre = .*$",
+			"172.217.5.238 iad30s07-in-f238.1e100.net\n172.217.7.174 iad30s09-in-f14.1e100.net\n172.217.7.206 iad30s10-in-f206.1e100.net\n172.217.7.238 iad23s58-in-f14.1e100.net\n172.217.15.78 iad23s63-in-f14.1e100.net\n172.217.15.110 iad30s21-in-f14.1e100.net\n216.58.217.78 iad23s41-in-f14.1e100.net\n216.58.217.110 iad23s42-in-f14.1e100.net\n216.58.217.142 iad23s43-in-f142.1e100.net\n172.217.5.238 iad30s07-in-f14.1e100.net\n172.217.7.142 iad30s08-in-f142.1e100.net\n172.217.7.174 iad30s09-in-f14.1e100.net\n172.217.7.206 iad30s10-in-f206.1e100.net\n172.217.7.238 iad23s58-in-f14.1e100.net\n172.217.8.14 iad23s59-in-f14.1e100.net\n172.217.15.78 iad23s63-in-f14.1e100.net\n172.217.15.110 iad30s21-in-f14.1e100.net\n",
+			"Address",
+			"^(\\[TRACK03\\]$\\n)mkv",
+			"^(\\[TRACK03\\])$\\nmkv",
+			"^genre = .*$",
+			",",
+			"^genre =.*$",
+			"^genre = .*$",
+			"^genre = *$",
+			"readline",
+			"caf",
+			"Remove \t",
+			"genre = Science Fiction",
+			"genre = Action",
+			"genre = Comedy",
+			"disable",
+			"\t\t",
+			"genre = Comedy",
+			"print",
+			"art",
+			"edited",
+			"Edited",
+			"dateto",
+			"batchmile",
+			"Column(CHAR(1, 'utf8mb4_unicode_ci'))",
+			"prev_status",
+			"Column(CHAR(1, 'utf8mb4_unicode_ci'),",
+			"batch",
+			"Mile",
+			"mile",
+			"inverse",
+			"^\\[TRACK",
+			"      Overview Details  ",
+			"^genre = .*$",
+			"one",
+			"AllUser",
+			"jquery",
+			"Alluser",
+			"user",
+			"encode_string",
+			"metadata",
+			"models.db",
+			"^genre = .*",
+			"^(\\[TRACK0[34]\\])$\\nmkv",
+			"^(\\[TRACK0[34]\\])\\nmkv$",
+			"^(\\[TRACK0[34]\\])$",
+			"^\\[TRACK0[34]\\]$",
+			"^genre = .*",
+			"x\\s*",
+			"mm",
+			"^year = *$",
+			"^genre = .*",
+			"^comment = .*",
+			"^title = .*",
+			"^description = .*",
+			"disable = yes",
+			"(\\[TRACK0[3456]\\]\\n)",
+			"genre = .*",
+			"print",
+			"show = Tinker, Tailor, Solider, Spy",
+			"print",
+			"regex",
+			"update_",
+			"genre = Thriller",
+			"genre = .*",
+			" % ",
+			"samsung",
+			"genre = .*",
+			"<script type=\"text/javascript\" src=\"",
+			"src=",
+			"script src",
+			"jquery",
+			"moment",
+			"jquery",
+			"src=",
+			"src",
+			"jquery",
+			" *\\t *",
+			"Archer Dreamland: ",
+			"disable",
+			"[TRACK03]",
+			"achievement",
+			"eac3",
+			"x264_tune",
+			"x264",
+			"^genre = .*$",
+			"^genre = *$",
+			"disable",
+			"^year = *$",
+			"^genre = *$",
+			" *\\t *",
+			"No. in season",
+			"hr",
+			"^genre = *$",
+			"\\[TRACK03\\]\\n",
+			"^description = *$",
+			"^year = *$",
+			"^genre = *$",
+			" \\t",
+			"prod",
+			" \\t",
+			"^genre = *$",
+			"thing",
+			"love",
+			"love all",
+			"lace",
+			"homic",
+			"homicide",
+			"old lace",
+			"get",
+			"disable = yes\\ndisable = yes\\n",
+			"\\[TRACK02\\]\\n",
+			"\\[TRACK04\\]\\n",
+			"\\[TRACK06\\]\\n",
+			"\\[TRACK06\\]"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\1disable=yes\\nmkv",
+			"description = Welcome back to Westworld, where the puppet show is over and the newly liberated \"hosts\" are coming for humankind. In Season Two, Dolores takes charge, Maeve is on a mission, and the Man in Black is back. Chaos takes control in this dark odyssey about the dawn of artificial consciousness, the birth of a new form of life, and the evolution of sin.",
+			"year = 2018",
+			"genre = Science Fiction",
+			"genre = Drama",
+			"\\1\\disable=yes\\nmkv",
+			"(\\[TRACK03\\])\\n\\disable=yes\\nmkv",
+			"genre = Drama",
+			"genre = Science Fiction",
+			"genre = Superhero",
+			"genre = Adventure",
+			"genre = CGI",
+			"genre = Puppets",
+			"Column(CHAR(1, collation='utf8mb4_unicode_ci'))",
+			"Column(CHAR(1, collation='utf8mb4_unicode_ci'),",
+			"  ",
+			"genre = Animation",
+			"genre = Superhero",
+			"\\1\\ndisable=yes\\nmkv",
+			"\\1\\ndisable=yes",
+			"\\0\\ndisable=yes",
+			"\\1\\ndisable=yes",
+			"genre = Animation",
+			"\\t",
+			"year = 2014",
+			"genre = Animation",
+			"comment = ",
+			"title = ",
+			"description = ",
+			"\\1disable = yes\\n",
+			"genre = Mystery",
+			"show = Tinker, Tailor, Soldier, Spy",
+			"genre = Action",
+			"genre = Mystery",
+			"\\t",
+			"genre = Fantasy",
+			"genre = Crime",
+			"year = 2017",
+			"genre = Thriller",
+			"\\t",
+			"genre = Animation",
+			"\\[TRACK03\\]\\ndisable =yes\\n",
+			"description = When he goes to work for Mr. Wednesday, ex-con Shadow Moon has no idea that the man he's guarding is really the Norse god Odin. Soon, Shadow is involved in a mission to recruit Odin's contemporaries for an all-out war with the gods of the modern age.",
+			"year = 2017",
+			"genre = Fantasy",
+			"\\t",
+			"genre = Mystery",
+			"disable = yes\\n",
+			"\\[TRACK02\\]\\ndisable = yes\\n",
+			"\\[TRACK04\\]\\ndisable = yes\\n",
+			"\\[TRACK06\\]\\ndisable = yes\\n",
+			"\\[TRACK06\\]\\ndisable = yes",
+			"\\[TRACK04\\]\\ndisable = yes",
+			"\\[TRACK02\\]\\ndisable = yes",
+			"\\[TRACK0\\1\\]\\ndisable = yes",
+			"description = As the Long Night of Winter overtakes Westeros, a series of fateful encounters leads to the prophesied Great War, an all-out conflict that threatens to destroy everything that the families have achieved.",
+			"year = 2017",
+			"genre = Fantasy",
+			"\\t",
+			"genre = Mystery",
+			".  ",
+			"  ",
+			"\\1\\t\\2\\t\\3\\n\\4.  Guest cast: \\5.",
+			"\\t",
+			"description = Updating the futuristic landscape imagined in the 1973 big-screen thriller, Westworld is a dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged. No rules, no laws, no judgment. Live without limits.",
+			"year = 2016",
+			"genre = Science Fiction",
+			"genre = Mystery",
+			"\\1\\t\\2\\t\\3\\n\\4.  Guest cast: \\5.",
+			"\\t",
+			"\\n\\1  Guest cast:\\2",
+			"disable = yes",
+			"\\[TRACK05\\]\\ndisable = yes",
+			"\\[TRACK05\\]\\ndisable = yes\\n",
+			"\\n\\[TRACK05\\]\\ndisable = yes\\n",
+			"year = 2016",
+			"genre = Comedy",
+			"year = 2016",
+			"genre = Mystery",
+			"disable = yes",
+			"\\n\\[TRACK06\\]\\ndisable = yes\\n",
+			"genre = History",
+			"genre = Horror",
+			"\\t",
+			"year = 2016",
+			"description = With Prof. Hugo Strange's mob of mutated monsters on the loose, the potential for mayhem in the streets of Gotham rises sharply, requiring extraordinary tactics to deal with the threat.",
+			"genre = Crime",
+			"",
+			"description = ",
+			"year = 2017",
+			"genre = Horror",
+			"genre = Thriller",
+			"year = 2016",
+			"description = On the verge of pulling off a scam worth $5 million, two larcenous businessmen and their wives are visited by a man claiming to be a neighbor but is really a slick con artist who soon pits the foursome against one another.  Director: Martin Rosete.",
+			"year = 2014",
+			"description = Treading warily into the thicket of Pakistani politics, Carrie establishes a covert line of communication with the nation's Inter-Services Intelligence Bureau -- despite its checkered history. Meanwhile, Saul adjusts to life in the private sector.",
+			"genre = Thriller",
+			"description = Confronted by a mass landing of alien vessels around the globe, military leaders seek the help of brilliant linguist Louise Banks in an effort to communicate with the extraterrestrials and determine their intentions.  Cast: Amy Adams, Jeremy Renner, Forest Whitaker, Michael Stuhlbarg, Tzi Ma.  Director: Denis Villeneuve.",
+			"year = 2016",
+			"genre = Science Fiction",
+			"genre = Thriller",
+			"year = 2015",
+			"year = 2016",
+			"description = The concept and expansion of McDonald's global fast-food empire represent one of the great success stories of American business. This meaty biopic profiles company founder Ray Kroc, whose canny instincts turned McDonald's into a golden brand.  Cast: Michael Keaton, Nick Offerman, John Carroll Lynch, Linda Cardellini, Patrick Wilson, B.J. Novak, Laura Dern.  Director: John Lee Hancock",
+			"genre = Drama",
+			"genre = Superhero",
+			"year = 2017",
+			"description = In this chapter from the exploits of Wolverine, the hirsute superhero returns to thwart the apocalyptic plans of supervillain Nathaniel Essex. But with Wolverine's healing abilities waning, he'll need the help of a female clone created from his DNA.  Cast: Hugh Jackman, Patrick Stewart, Richard E. Grant, Boyd Holbrook, Stephen Merchant, Dafne Keen. Director: James Mangold",
+			"description = A seedy young Brit obsessed with following people -- harmlessly at first -- meets a like-minded bloke, and the pair soon graduate to breaking and entering. But they meet their match in a tough blonde dame who may have dubious plans of her own. Cast: Jeremy Theobald, Alex Haw, Lucy Russell, John Nolan, Dick Bradsell, Gillian El-Kadi, Jennifer Angel, Nicolas Carlotti. Director: Christopher Nolan\n",
+			"year = 1998",
+			"genre = Thriller",
+			"genre = Comedy",
+			"year = 2015",
+			"genre = Thriller",
+			"genre = Crime",
+			"year = 2016",
+			"episodeid = ",
+			"writer = ",
+			"comment = ",
+			"description = ",
+			"song = ",
+			"year = ",
+			"genre = Comedy",
+			"description = Fresh from his surprising last-minute success against Hooli at the TechCrunch battle, Richard and his fellow social misfits at Pied Piper struggle with the fiscal and organizational pressures of expanding the company.",
+			"genre = Comedy",
+			"year = 2015",
+			"year = 2014",
+			"description = This season finds Det. James Gordon's moral code vacillating as he squares off against the city's most nefarious villains. Meanwhile, shifting alliances shake up the battle for power in Gotham."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 278.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.haskell_error_checker":
+	{
+		"height": 448.0
+	},
+	"output.haskell_sublime_load":
+	{
+		"height": 176.0
+	},
+	"output.sublime_haskell_error_panel":
+	{
+		"height": 100.0
+	},
+	"output.sublime_haskell_output_panel":
+	{
+		"height": 108.0
+	},
+	"output.sublime_haskell_symbol_info_panel":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "dhcp_monitor.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Carl\\Documents\\Project Euler\\Project Euler.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"AdvConfig"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
